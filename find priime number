@@ -8,8 +8,9 @@ class Main {
         if (number <= 1) {
             isPrime = false;
             System.out.println(number + " is a prime number.");
-        } else {
-            for (int i = 2; i <= Math.sqrt(number); i++) {
+        } 
+        else {
+            for (int i = 2; i <= (number); i++) {
                 if (number % i == 0) {
                     isPrime = false;
                     System.out.println(number + " is not a prime number.");
@@ -20,4 +21,3 @@ class Main {
         scanner.close();
     }
 }
-
