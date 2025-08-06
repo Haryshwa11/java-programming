@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class main
+{
+    public static void main(String[]args)
+    {
+        System.out.println("entr the size");
+        Scanner X = new Scanner(System.in);
+        int Size = X.nextInt();
+        int[] array = new int[Size];
+        System.out.println("enter your element:");
+        for(int i=0;i<Size;i++)
+        {
+            array[i]=X.nextInt();
+            
+        }
+        System.out.println("list of data");
+        for(int num:array)
+        {
+            System.out.println(num);
+            
+        }
+    }
+}
