@@ -1,0 +1,17 @@
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class CharacterCountStream {
+    public static void main(String[] args) {
+        String input = "Hello World";
+
+        Map<Character, Long> charCountMap = input.chars()
+            .filter(c -> !Character.isWhitespace(c))
+            .mapToObj(c -> (char) c)
+            .collect(Collectors.groupingBy(c -> c, Collectors.counting()));
+
+        System.out.println("Character Count: " + charCountMap);
+    }
+}
+
+	
