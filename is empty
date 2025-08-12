@@ -1,6 +1,6 @@
 public class Main{
     public static void main(String[] args) {
-      String name="HELLO WORLD IAM SATHISH ";
+      String name="HELLO WORLD IAM HARYSHWA ";
      
       System.out.println(name.isEmpty());
        
