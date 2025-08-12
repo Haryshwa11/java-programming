@@ -1,7 +1,7 @@
 public class Main{
     public static void main(String[] args) {
       String x=String.join (" ","HARYSHWA","   ","9297");
-      System.out.println(x.lastIndexOf("9121"));
+      System.out.println(x.lastIndexOf("9297"));
      
        
     }
