@@ -1,0 +1,8 @@
+class Main {
+    public static void main(String[] args) {
+        String x="haryshwa";
+        char[]y=x.toCharArray();
+        
+        System.out.println(y[4]);
+    }
+}
