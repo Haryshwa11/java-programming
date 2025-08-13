@@ -1,0 +1,14 @@
+
+class Main {
+    public static void main(String[] args) {
+        String a="haryshwa";
+        String v="hello world";
+        
+        System.out.println(a.replace('h','b'));
+        
+        String x="hello";
+        System.out.println(v.replaceAll(x,"hi"));
+        
+        
+    }
+}
